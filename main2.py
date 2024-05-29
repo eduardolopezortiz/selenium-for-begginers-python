@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 # Open browser
 driver = webdriver.Chrome()
-time.sleep(5)
+time.sleep(4)
 
 
 # Go to webpage
