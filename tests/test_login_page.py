@@ -1,11 +1,14 @@
 import time
 
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
 #class TestPositiveScenarios
 class TestPositiveScenarios:
+
+    @pytest.mark.login
     def test_positive_login(self):
         # Test case 1: Positive LogIn test
 
